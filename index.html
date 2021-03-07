@@ -50,21 +50,31 @@
 
 		.square_btn:hover {background-color: black; color: cyan;}
 
+		.pac-container:after {
+		    /* Disclaimer: not needed to show 'powered by Google' if also a Google Map is shown */
+
+		    background-image: none !important;
+		    height: 0px;
+}
+
 	</style>
 </head>
 <body>
 
 <div id='content'>
 
+<!-- Translate --->
 <div id="google_translate_element"></div>
 
 <script type="text/javascript">
 function googleTranslateElementInit() {
-  new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.HORIZONTAL}, 'google_translate_element');
+  new google.translate.TranslateElement({pageLanguage: 'pt-BR', layout: google.translate.TranslateElement.InlineLayout.HORIZONTAL}, 'google_translate_element');
 }
 </script>
 
 <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+<!-- MAIN -->
 
 <div class='logo'>
 	<h1>emmiUX</h1>
@@ -94,10 +104,6 @@ function googleTranslateElementInit() {
         				<li>Um Screencast de uma análise bem completa da sua tecnologia.</li>
         				<li>Um registro/documento com uma visão ampla do que pode ser melhorado na questão da experiência do usuário em sua tecnologia.</li>
         			</ul>
-
-        			<p>
-        			Vamos discutir valores? O nosso único e completo plano é acessível a todos, o valor único é de R$ 70.
-        			</p>
 
         			<p>
         			Entre em contato para fazer o teste.
